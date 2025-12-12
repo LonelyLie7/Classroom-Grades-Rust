@@ -1,0 +1,45 @@
+# Archivos generados por Cargo
+/target/
+/scores/
+tokencache.json
+**/*.rs.bk
+
+# Archivos de entorno y configuración local
+.env
+.env.local
+.env.*.local
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de documentación generados
+/doc/
+
+# Archivos de pruebas de cobertura
+/coverage/
+*.profraw
+
+# Archivos de logs y temporales
+*.log
+tmp/
+temp/
+
+# Archivos de configuración específicos del proyecto
+.config/
+*.toml.local
+
+# Binarios compilados (adicionales a /target/)
+*.exe
+*.out
+*.app
+
+# Archivos de migración de bases de datos (si usas diesel)
+migrations/*.sql
