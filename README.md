@@ -70,7 +70,7 @@ La primera vez que ejecutes la aplicación:
 3. El token de acceso se guardará automáticamente para futuras ejecuciones
 
 ## 📁 Estructura de salida
-El programa genera archivos CSV en el directorio scores/ cuyo nombre luce así {nombre_del_curso}.csv
+El programa genera archivos CSV en el directorio grades/ cuyo nombre luce así {nombre_del_curso}.csv
 
 Cada archivo CSV contiene:
 - Primera fila: Encabezados (Asignación 1, Asignación 2, ...)

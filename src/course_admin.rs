@@ -111,7 +111,7 @@ impl CourseAdmin {
                 a.title.cmp(&b.title)
             });
             println!("[ÉXITO]: Curso - {}: Datos ordenados exitosamente", self.course.name);
-            println!("\t[INFO]: Estuciantes: {}", self.students.len());
+            println!("\t[INFO]: Estudiantes: {}", self.students.len());
             println!("\t[INFO]: Asignaciones: {}", self.assignments.len());
 
             // load submissions

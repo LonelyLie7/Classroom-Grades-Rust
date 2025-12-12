@@ -4,7 +4,7 @@ use tokio::{fs::{self, OpenOptions}, io::AsyncWriteExt};
 
 // make the filename path based on course name
 fn filename_path(course_name: &str) -> PathBuf {
-    Path::new("scores")
+    Path::new("grades")
         .join(format!("{}.csv",course_name))
 }
 

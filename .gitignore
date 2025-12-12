@@ -1,6 +1,6 @@
 # Archivos generados por Cargo
 /target/
-/scores/
+/grades/
 tokencache.json
 **/*.rs.bk
 
