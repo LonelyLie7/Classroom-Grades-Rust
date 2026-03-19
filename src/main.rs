@@ -12,7 +12,11 @@ use tokio::task::JoinHandle;
 #[tokio::main]
 async fn main() {
     // get active courses
-    let active_courses = fetcher::active_courses().await.unwrap();
+    let mut active_courses = fetcher::active_courses().await.unwrap();
+    
+    // exclude Platzi courses (I dont want them to appear) 
+    active_courses.retain(|course| !course.name.contains("Platzi"));
+
     // create an instance of CourseAdmin for every course
     let mut course_admins: Vec<CourseAdmin> = Vec::new(); 
     for course in active_courses {
