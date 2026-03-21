@@ -41,5 +41,8 @@ temp/
 *.out
 *.app
 
+# Accesos directos
+*.lnk
+
 # Archivos de migración de bases de datos (si usas diesel)
 migrations/*.sql
